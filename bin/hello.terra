@@ -1,0 +1,7 @@
+local C = terralib.includec("stdio.h")
+
+terra main()
+    C.printf("hello, world\n")
+end
+
+main()
